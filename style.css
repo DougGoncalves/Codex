@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:#121212;
+}
+#header{
+    width: 100%;
+    background-color: #181a1f;
+    padding: 5px;
+    height: 40px;
+}
+#iconlogo{
+    height: 38px;
+}
+#logo{
+    float: left;
+    color:white; 
+    font-size: 28px;
+}
+#logo span{
+    position: absolute;
+    top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#buttonContainer{
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+    padding: -2px 0;
+}
+#htmllogo{
+    height: 25px;
+}
+#csslogo{
+    height: 25px;
+}
+#jslogo{
+    height: 25px;
+}
+.toggleButton {
+    float: left;
+    border: 1px solid white;
+    padding: 6px;
+}
+#html{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#output{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-bottom: 15px;
+}
+#output span{
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+.active{
+    background-color: #cccccc;
+    color: black;
+}
+.highlightedButton{
+    background-color: grey;
+}
+textarea{
+    resize: none;
+    border-top: none;
+    border-color: grey;
+}
+.panel{
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+iframe{
+    border: none;
+}
+.hidden{
+    display: none;
+}
+#outputPanel{
+    background-color: white;
+}
